@@ -326,6 +326,12 @@ public:
    */
   bool makeToolTrajectory(Name tool_name, double tool_goal_position);
   /**
+   * @brief makeToolVelocity
+   * @param tool_name
+   * @param tool_goal_velocity
+   */
+  bool makeToolVelocity(Name tool_name, double tool_goal_velocity);
+  /**
    * @brief getJointGoalValueFromTrajectory
    * @param present_time
    * @return
